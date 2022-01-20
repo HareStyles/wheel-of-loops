@@ -1,0 +1,317 @@
+//Animation
+
+//Button
+.home-button {
+  animation: grow 4s infinite;
+
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+.landing {
+  h1 {
+    span {
+      display: inline-block;
+
+      &:nth-of-type(1) {
+        animation: a1 4s infinite;
+        @keyframes a1 {
+          0% {
+            transform: rotate(0);
+          }
+          25% {
+            transform: rotate(10deg);
+          }
+
+          75% {
+            transform: rotate(-10deg);
+          }
+
+          100% {
+            transform: rotate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(2) {
+        animation: a2 4s infinite;
+        @keyframes a2 {
+          0% {
+            transform: translate(0);
+          }
+          25% {
+            transform: translateY(10px);
+          }
+
+          75% {
+            transform: translateY(-10px);
+          }
+
+          100% {
+            transform: translate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(3) {
+        animation: a3 4s infinite;
+        @keyframes a3 {
+          0% {
+            transform: rotate(0);
+          }
+          25% {
+            transform: rotate(-10deg);
+          }
+
+          75% {
+            transform: rotate(10deg);
+          }
+
+          100% {
+            transform: rotate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(4) {
+        animation: a4 4s infinite;
+        @keyframes a4 {
+          0% {
+            transform: translate(0);
+          }
+          25% {
+            transform: translateY(-10px);
+          }
+
+          75% {
+            transform: translateY(10px);
+          }
+
+          100% {
+            transform: translate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(5) {
+        animation: a5 4s infinite;
+        @keyframes a5 {
+          0% {
+            transform: rotate(0);
+          }
+          25% {
+            transform: rotate(10deg);
+          }
+
+          75% {
+            transform: rotate(-10deg);
+          }
+
+          100% {
+            transform: rotate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(6) {
+        animation: spin1 4s infinite;
+        @keyframes spin1 {
+          0% {
+            transform: rotate(0);
+          }
+          100% {
+            transform: rotate(-360deg);
+          }
+        }
+      }
+      // &:nth-of-type(7) {
+      //
+      //   animation: spin 4s ease-in-out;
+      //   @keyframes spin {
+      //     0% {
+      //       transform: rotate(0);
+      //     }
+      //     30% {
+      //       transform: rotate(0);
+      //     }
+      //     100% {
+      //       transform: rotate(360deg);
+      //     }
+      //   }
+      // }
+      &:nth-of-type(8) {
+        animation: a8 4s infinite;
+        @keyframes a8 {
+          0% {
+            transform: rotate(0);
+          }
+          25% {
+            transform: rotate(10deg);
+          }
+
+          75% {
+            transform: rotate(-10deg);
+          }
+
+          100% {
+            transform: rotate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(9) {
+        animation: a9 4s infinite;
+        @keyframes a9 {
+          0% {
+            transform: translate(0);
+          }
+          25% {
+            transform: translateY(10px);
+          }
+
+          75% {
+            transform: translateY(-10px);
+          }
+
+          100% {
+            transform: translate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(10) {
+        animation: a10 4s infinite;
+        @keyframes a10 {
+          0% {
+            transform: translate(0);
+          }
+          25% {
+            transform: translateY(10px);
+          }
+
+          75% {
+            transform: translateY(-10px);
+          }
+
+          100% {
+            transform: translate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(11) {
+        animation: a11 4s infinite;
+        @keyframes a11 {
+          0% {
+            transform: rotate(0);
+          }
+          25% {
+            transform: rotate(-10deg);
+          }
+
+          75% {
+            transform: rotate(10deg);
+          }
+
+          100% {
+            transform: rotate(0);
+          }
+        }
+      }
+
+      &:nth-of-type(12) {
+        animation: a12 4s infinite;
+        @keyframes a12 {
+          0% {
+            transform: rotate(0);
+          }
+          25% {
+            transform: rotate(10deg);
+          }
+
+          75% {
+            transform: rotate(-10deg);
+          }
+
+          100% {
+            transform: rotate(0);
+          }
+        }
+      }
+      // &:nth-of-type(9) {
+      //
+      //   animation: spin2 4s infinite;
+      //   @keyframes spin2 {
+      //     0% {
+      //       transform: rotate(0);
+      //     }
+      //     100% {
+      //       transform: rotate(360deg);
+      //     }
+      //   }
+      // }
+      // &:nth-of-type(10) {
+      //
+      //   animation: spin3 4s infinite;
+      //   @keyframes spin3 {
+      //     0% {
+      //       transform: rotate(0);
+      //     }
+      //     100% {
+      //       transform: rotate(-360deg);
+      //     }
+      //   }
+      // }
+      // &:nth-of-type(11) {
+      //
+      //   animation: spin 4s ease-in-out;
+      //   @keyframes spin {
+      //     0% {
+      //       transform: rotate(0);
+      //     }
+      //     50% {
+      //       transform: rotate(0);
+      //     }
+      //     100% {
+      //       transform: rotate(360deg);
+      //     }
+      //   }
+      // }
+      // &:nth-of-type(12) {
+      //
+      //   animation: spin 4s ease-in-out;
+      //   @keyframes spin {
+      //     0% {
+      //       transform: rotate(0);
+      //     }
+      //     55% {
+      //       transform: rotate(0);
+      //     }
+      //     100% {
+      //       transform: rotate(360deg);
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}

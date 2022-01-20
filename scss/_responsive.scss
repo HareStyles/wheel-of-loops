@@ -1,0 +1,25 @@
+//Responsive
+
+@mixin mobile {
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (max-width: $widescreen) {
+    @content;
+  }
+}
+
+@mixin widescreen {
+  @media screen and (max-width: $fullhd) {
+    @content;
+  }
+}

@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wheel of Loops</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="scss/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hte1txp.css" />
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-widescreen is-multiline">
+          <div class="column is-one-third-widescreen">
+            <div class="spinner-container">
+              <div class="spinner">
+                <img class="marker" src="record-needle.png" />
+                <img id="key" class="wheel" src="key-wheel.png" />
+                <div class="display key-display"></div>
+              </div>
+              <a id="keystart" class="button btn-primary start">Get a Key</a>
+            </div>
+          </div>
+          <div class="column is-one-third-widescreen">
+            <div class="spinner-container">
+              <div class="spinner">
+                <img class="marker" src="record-needle.png" />
+                <img id="tempo" class="wheel" src="tempo-wheel.png" />
+                <div class="display tempo-display"></div>
+              </div>
+              <a id="tempostart" class="button btn-primary start"
+                >Get the Tempo</a
+              >
+            </div>
+          </div>
+          <div class="column is-one-third-widescreen">
+            <div class="spinner-container">
+              <div class="spinner">
+                <img class="marker" src="record-needle.png" />
+                <img
+                  id="chord"
+                  class="wheel"
+                  src="chord-progression-wheel.png"
+                />
+                <div class="display chord-display"></div>
+              </div>
+              <a id="chordstart" class="button btn-primary start"
+                >Get Progression</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
